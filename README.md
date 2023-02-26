@@ -85,7 +85,6 @@ getIndices(numArr, target); // returns [3, 4]
 ## Example 4:
 
 ```typescript
-const numArr = [5, 8, 9, 7, 4];
 const target = 4;
 getIndices(numArr, target); // returns null
 ```
