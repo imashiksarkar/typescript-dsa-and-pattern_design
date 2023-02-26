@@ -100,6 +100,14 @@ console.log(isPalindrome(121)); // true
 console.log(isPalindrome(123)); // false
 ```
 
+# Valid Parentheses
+
+```typescript
+console.log(isValidParentheses("()")); // true
+console.log(isValidParentheses("()[]{}")); // true
+console.log(isValidParentheses("(]")); // false
+```
+
 # Pattern Design
 
 ```typescript

@@ -3,6 +3,7 @@ import drawDiamond from "./drawDiamond";
 import drawPyramid from "./drawPyramid";
 import getIndices from "./getIndices";
 import isPalindrome from "./isPalindrome";
+import isValidParentheses from "./isValidParentheses";
 import matchSingleInArr from "./matchSingleInArr";
 import { numRevNum, numRevStr } from "./numReverse";
 import removeDuplicate from "./removeDuplicate";
@@ -19,4 +20,5 @@ export default {
   drawButterfly,
   drawDiamond,
   isPalindrome,
+  isValidParentheses,
 };

@@ -9,6 +9,7 @@ const {
   drawDiamond,
   getIndices,
   isPalindrome,
+  isValidParentheses,
 } = lib;
 
 const arr = [
@@ -45,3 +46,7 @@ const arr = [
 // drawDiamond(11);
 
 // console.log(isPalindrome(121));
+
+// console.log(isValidParentheses("()"));
+// console.log(isValidParentheses("()[]{}"));
+// console.log(isValidParentheses("(]"));
