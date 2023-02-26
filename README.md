@@ -108,6 +108,15 @@ console.log(isValidParentheses("()[]{}")); // true
 console.log(isValidParentheses("(]")); // false
 ```
 
+# Roman To Integer
+
+```typescript
+console.log(romanToInt("IX")); // 9
+console.log(romanToInt("III")); // 3
+console.log(romanToInt("LVIII")); // 58
+console.log(romanToInt("MCMXCIV")); // 1994
+```
+
 # Print functin inplemented
 
 ```typescript

@@ -7,6 +7,7 @@ import isValidParentheses from "./isValidParentheses";
 import matchSingleInArr from "./matchSingleInArr";
 import { numRevNum, numRevStr } from "./numReverse";
 import removeDuplicate from "./removeDuplicate";
+import romanToInt from "./romanToInteger";
 import { printf } from "./utils";
 
 export default {
@@ -21,4 +22,5 @@ export default {
   drawDiamond,
   isPalindrome,
   isValidParentheses,
+  romanToInt
 };
