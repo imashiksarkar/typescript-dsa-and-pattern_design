@@ -11,6 +11,7 @@ const {
   isPalindrome,
   isValidParentheses,
   romanToInt,
+  longestCommonPrefix,
 } = lib;
 
 const arr = [
@@ -59,3 +60,6 @@ const arr = [
 // console.log(romanToInt("III")); // 3
 // console.log(romanToInt("LVIII")); // 58
 // console.log(romanToInt("MCMXCIV")); // 1994
+
+// console.log(longestCommonPrefix(["flower", "flow", "flight"])); // fl
+// console.log(longestCommonPrefix(["dog", "racecar", "car"])); // null

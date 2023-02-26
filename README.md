@@ -117,6 +117,13 @@ console.log(romanToInt("LVIII")); // 58
 console.log(romanToInt("MCMXCIV")); // 1994
 ```
 
+# Longest Common Prefix
+
+```typescript
+console.log(longestCommonPrefix(["flower", "flow", "flight"])); // fl
+console.log(longestCommonPrefix(["dog", "racecar", "car"])); // null
+```
+
 # Print functin inplemented
 
 ```typescript

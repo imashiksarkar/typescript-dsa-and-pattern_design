@@ -4,6 +4,7 @@ import drawPyramid from "./drawPyramid";
 import getIndices from "./getIndices";
 import isPalindrome from "./isPalindrome";
 import isValidParentheses from "./isValidParentheses";
+import longestCommonPrefix from "./longestCommonPrefix";
 import matchSingleInArr from "./matchSingleInArr";
 import { numRevNum, numRevStr } from "./numReverse";
 import removeDuplicate from "./removeDuplicate";
@@ -22,5 +23,6 @@ export default {
   drawDiamond,
   isPalindrome,
   isValidParentheses,
-  romanToInt
+  romanToInt,
+  longestCommonPrefix,
 };
