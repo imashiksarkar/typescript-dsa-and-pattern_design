@@ -50,3 +50,6 @@ const arr = [
 // console.log(isValidParentheses("()"));
 // console.log(isValidParentheses("()[]{}"));
 // console.log(isValidParentheses("(]"));
+
+// printf("Hello ");
+// printf("World!");

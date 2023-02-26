@@ -108,6 +108,14 @@ console.log(isValidParentheses("()[]{}")); // true
 console.log(isValidParentheses("(]")); // false
 ```
 
+# Print functin inplemented
+
+```typescript
+printf("Hello ");
+printf("World!");
+// Hello World!
+```
+
 # Pattern Design
 
 ```typescript
