@@ -2,6 +2,7 @@ import drawButterfly from "./drawButterfly";
 import drawDiamond from "./drawDiamond";
 import drawPyramid from "./drawPyramid";
 import getIndices from "./getIndices";
+import isPalindrome from "./isPalindrome";
 import matchSingleInArr from "./matchSingleInArr";
 import { numRevNum, numRevStr } from "./numReverse";
 import removeDuplicate from "./removeDuplicate";
@@ -17,4 +18,5 @@ export default {
   drawPyramid,
   drawButterfly,
   drawDiamond,
+  isPalindrome,
 };

@@ -49,7 +49,7 @@ matchSingleInArr(arr, "ashik"); // true
 matchSingleInArr(arr, "sotto"); // false
 ```
 
-# Find Indecis
+# Find Indecis (Two Sum)
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -88,6 +88,16 @@ getIndices(numArr, target); // returns [3, 4]
 const numArr = [5, 8, 9, 7, 4];
 const target = 4;
 getIndices(numArr, target); // returns null
+```
+
+# Palindrome ckeck
+
+```typescript
+// 121 => 121
+console.log(isPalindrome(121)); // true
+
+// 123 => 321 (121 !== 321)
+console.log(isPalindrome(123)); // false
 ```
 
 # Pattern Design

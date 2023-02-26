@@ -8,6 +8,7 @@ const {
   drawButterfly,
   drawDiamond,
   getIndices,
+  isPalindrome,
 } = lib;
 
 const arr = [
@@ -42,3 +43,5 @@ const arr = [
 // drawButterfly(10);
 
 // drawDiamond(11);
+
+// console.log(isPalindrome(121));
