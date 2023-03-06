@@ -12,6 +12,7 @@ const {
   isValidParentheses,
   romanToInt,
   longestCommonPrefix,
+  findKthPositive,
 } = lib;
 
 const arr = [
@@ -61,5 +62,7 @@ const arr = [
 // console.log(romanToInt("LVIII")); // 58
 // console.log(romanToInt("MCMXCIV")); // 1994
 
-console.log(longestCommonPrefix(["flower", "flow", "flight"])); // fl
-console.log(longestCommonPrefix(["dog", "racecar", "car"])); // ""
+// console.log(longestCommonPrefix(["flower", "flow", "flight"])); // fl
+// console.log(longestCommonPrefix(["dog", "racecar", "car"])); // ""
+
+// console.log(findKthPositive([2, 3, 4, 7, 11], 5));

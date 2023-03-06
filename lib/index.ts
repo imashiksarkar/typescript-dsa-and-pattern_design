@@ -9,6 +9,7 @@ import matchSingleInArr from "./matchSingleInArr";
 import { numRevNum, numRevStr } from "./numReverse";
 import removeDuplicate from "./removeDuplicate";
 import romanToInt from "./romanToInteger";
+import findKthPositive from "./findKthPositive";
 import { printf } from "./utils";
 
 export default {
@@ -25,4 +26,5 @@ export default {
   isValidParentheses,
   romanToInt,
   longestCommonPrefix,
+  findKthPositive
 };
