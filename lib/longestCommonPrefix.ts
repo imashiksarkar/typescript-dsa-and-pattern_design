@@ -1,19 +1,29 @@
-const longestCommonPrefix = (strArr: string[]) => {
-  if (!strArr.length) return null;
-  let finalStr = strArr[0];
+type NonEmptyStringArray = [string, ...string[]];
 
-  // map over the array from the 1 index
-  for (let i = 1; i < strArr.length; i++) {
-    const currStr = strArr[i];
-    let tempCommonString = "";
+const longestCommonPrefix = (strs: NonEmptyStringArray) => {
+  if (strs.length < 2) return strs[0];
+  let finalStr = "",
+    shouldRun = true;
+  for (let column = 0; shouldRun; column++) {
+    let tempStr = "";
 
-    // map over the current string
-    for (let j = 0; j < currStr.length; j++) {
-      if (currStr[j] === finalStr[j]) tempCommonString += currStr[j];
+    for (let row = 0; row < strs.length; row++) {
+      const currentChar = strs[row][column];
+
+      if (currentChar && row === 0) {
+        tempStr = currentChar;
+        continue;
+      }
+
+      if (tempStr !== currentChar) {
+        tempStr = "";
+        shouldRun = false;
+        break;
+      }
     }
-    finalStr = tempCommonString;
+    finalStr += tempStr;
   }
-  return finalStr.length ? finalStr : null;
+  return finalStr;
 };
 
 export default longestCommonPrefix;

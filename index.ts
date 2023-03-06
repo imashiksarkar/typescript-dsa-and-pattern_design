@@ -61,5 +61,5 @@ const arr = [
 // console.log(romanToInt("LVIII")); // 58
 // console.log(romanToInt("MCMXCIV")); // 1994
 
-// console.log(longestCommonPrefix(["flower", "flow", "flight"])); // fl
-// console.log(longestCommonPrefix(["dog", "racecar", "car"])); // null
+console.log(longestCommonPrefix(["flower", "flow", "flight"])); // fl
+console.log(longestCommonPrefix(["dog", "racecar", "car"])); // ""
