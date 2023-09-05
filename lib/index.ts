@@ -1,18 +1,18 @@
-import drawButterfly from "./drawButterfly";
-import drawDiamond from "./drawDiamond";
-import drawPyramid from "./drawPyramid";
-import getIndices from "./getIndices";
-import isPalindrome from "./isPalindrome";
-import isValidParentheses from "./isValidParentheses";
-import longestCommonPrefix from "./longestCommonPrefix";
-import matchSingleInArr from "./matchSingleInArr";
-import { numRevNum, numRevStr } from "./numReverse";
-import removeDuplicate from "./removeDuplicate";
-import romanToInt from "./romanToInteger";
-import findKthPositive from "./findKthPositive";
-import { printf } from "./utils";
+import drawButterfly from "./drawButterfly"
+import drawDiamond from "./drawDiamond"
+import drawPyramid from "./drawPyramid"
+import getIndices from "./getIndices"
+import isPalindrome from "./isPalindrome"
+import isValidParentheses from "./isValidParentheses"
+import longestCommonPrefix from "./longestCommonPrefix"
+import matchSingleInArr from "./matchSingleInArr"
+import { numRevNum, numRevStr } from "./numReverse"
+import removeDuplicate from "./removeDuplicate"
+import romanToInt from "./romanToInteger"
+import findKthPositive from "./findKthPositive"
+import { printf } from "./utils"
 
-export default {
+export {
   removeDuplicate,
   numRevNum,
   numRevStr,
@@ -26,5 +26,5 @@ export default {
   isValidParentheses,
   romanToInt,
   longestCommonPrefix,
-  findKthPositive
-};
+  findKthPositive,
+}

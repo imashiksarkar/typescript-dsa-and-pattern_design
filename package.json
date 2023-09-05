@@ -1,15 +1,22 @@
 {
   "name": "typescript-dsa",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "simple dsa solutions",
+  "main": "index.ts",
   "scripts": {
-    "dev": "ts-node index.ts"
+    "dev": "ts-node index.ts",
+    "test": "vitest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "dsa",
+    "pattern design",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Ashik Sarkar <ashiksarkar.s18@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "vitest": "^0.34.3"
   }
 }

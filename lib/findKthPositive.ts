@@ -1,11 +1,11 @@
 const findKthPositive = (arr: number[], k: number): number => {
   for (let i = 0; i <= k; i++) {
     if (arr.includes(i)) {
-      k++;
-      continue;
+      k++
+      continue
     }
   }
-  return k;
-};
+  return k
+}
 
-export default findKthPositive;
+export default findKthPositive
