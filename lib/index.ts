@@ -1,3 +1,4 @@
+export { default as sameFrequency } from "./sameFrequency"
 export { default as countUniqueValues } from "./countUniqueValues"
 export { default as validAnagram } from "./validAnagram"
 export { default as drawButterfly } from "./drawButterfly"
