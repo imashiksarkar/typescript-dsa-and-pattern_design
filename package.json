@@ -16,7 +16,9 @@
   "author": "Ashik Sarkar <ashiksarkar.s18@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.10.1",
     "ts-node": "^10.9.1",
+    "typescript": "^5.3.2",
     "vitest": "^0.34.3"
   }
 }
