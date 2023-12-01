@@ -1,3 +1,4 @@
+export { default as countUniqueValues } from "./countUniqueValues"
 export { default as validAnagram } from "./validAnagram"
 export { default as drawButterfly } from "./drawButterfly"
 export { default as drawDiamond } from "./drawDiamond"
