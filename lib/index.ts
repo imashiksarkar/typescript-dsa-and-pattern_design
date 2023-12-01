@@ -1,30 +1,14 @@
-import drawButterfly from "./drawButterfly"
-import drawDiamond from "./drawDiamond"
-import drawPyramid from "./drawPyramid"
-import getIndices from "./getIndices"
-import isPalindrome from "./isPalindrome"
-import isValidParentheses from "./isValidParentheses"
-import longestCommonPrefix from "./longestCommonPrefix"
-import matchSingleInArr from "./matchSingleInArr"
-import { numRevNum, numRevStr } from "./numReverse"
-import removeDuplicate from "./removeDuplicate"
-import romanToInt from "./romanToInteger"
-import findKthPositive from "./findKthPositive"
-import { printf } from "./utils"
-
-export {
-  removeDuplicate,
-  numRevNum,
-  numRevStr,
-  matchSingleInArr,
-  getIndices,
-  printf,
-  drawPyramid,
-  drawButterfly,
-  drawDiamond,
-  isPalindrome,
-  isValidParentheses,
-  romanToInt,
-  longestCommonPrefix,
-  findKthPositive,
-}
+export { default as validAnagram } from "./validAnagram"
+export { default as drawButterfly } from "./drawButterfly"
+export { default as drawDiamond } from "./drawDiamond"
+export { default as drawPyramid } from "./drawPyramid"
+export { default as getIndices } from "./getIndices"
+export { default as isPalindrome } from "./isPalindrome"
+export { default as isValidParentheses } from "./isValidParentheses"
+export { default as longestCommonPrefix } from "./longestCommonPrefix"
+export { default as matchSingleInArr } from "./matchSingleInArr"
+export { numRevNum, numRevStr } from "./numReverse"
+export { default as removeDuplicate } from "./removeDuplicate"
+export { default as romanToInt } from "./romanToInteger"
+export { default as findKthPositive } from "./findKthPositive"
+export { printf } from "./utils"

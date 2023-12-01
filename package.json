@@ -4,7 +4,7 @@
   "description": "simple dsa solutions",
   "main": "index.ts",
   "scripts": {
-    "dev": "ts-node index.ts",
+    "dev": "ts-node --transpile-only index.ts",
     "test": "vitest"
   },
   "keywords": [

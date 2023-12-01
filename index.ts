@@ -1,7 +1,3 @@
-import { drawPyramid, drawButterfly, drawDiamond } from "./lib"
+import { drawPyramid, drawButterfly, drawDiamond, validAnagram } from "./lib"
 
-drawPyramid(6)
-
-drawButterfly(10)
-
-drawDiamond(11)
+// console.log(validAnagram("anagram", "nagaram"))
