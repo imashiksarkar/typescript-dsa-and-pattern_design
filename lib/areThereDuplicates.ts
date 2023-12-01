@@ -1,4 +1,6 @@
-export default <T extends number | string>(...args: T[]) => {
+export default function areThereDuplicates<T extends number | string>(
+  ...args: T[]
+) {
   const numObj: Record<any, any> = {}
 
   for (const char of args) {

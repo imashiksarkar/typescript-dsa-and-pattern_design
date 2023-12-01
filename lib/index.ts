@@ -1,3 +1,4 @@
+export { default as isSubsequence } from "./isSubsequence"
 export { default as averagePair } from "./averagePair"
 export { default as areThereDuplicates } from "./areThereDuplicates"
 export { default as sameFrequency } from "./sameFrequency"
