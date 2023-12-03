@@ -2,8 +2,8 @@ const validAnagram = (word1: string, word2: string) => {
   // add whatever parameters you deem necessary - good luck!
   if (word1.length !== word2.length) return false
 
-  const word1Obj = {}
-  const word2Obj = {}
+  const word1Obj: Record<string, number> = {}
+  const word2Obj: Record<string, number> = {}
 
   for (const char of word1)
     word1Obj[char] = word1Obj[char] ? word1Obj[char] + 1 : 1
