@@ -2,9 +2,9 @@
   "name": "typescript-dsa",
   "version": "1.0.0",
   "description": "simple dsa solutions",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "dev": "ts-node --transpile-only index.ts",
+    "dev": "ts-node --transpile-only src/index.ts",
     "test": "vitest"
   },
   "keywords": [
