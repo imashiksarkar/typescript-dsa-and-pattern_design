@@ -37,8 +37,14 @@ const sumRecursive = (n: number): number => {
 
   // Recursive case: sum of numbers from 1 to n is n + sum of numbers from 1 to (n-1)
   return n + sumRecursive(n - 1)
+  /**
+   * 5 + (5-1)=4
+   * 4 + (4-1)=3
+   * 3 + (3-1)=2
+   * 2 + (2-1)=1
+   */
 }
 
 // Calculate the sum of numbers from 1 to 4
-const result = sumRecursive(4)
-console.log(result) // Output: 10
+// const result = sumRecursive(4)
+// console.log(result) // Output: 10
